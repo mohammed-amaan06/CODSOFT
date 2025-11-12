@@ -1,0 +1,90 @@
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins','sans-serif';
+            box-sizing: border-box;
+        }
+        body{
+            background-color:lightskyblue;
+            line-height: 1.6;
+        }
+        header{
+            background-color: #004aad;
+            color:#fff;
+            text-align: center;
+            padding: 32px 16px;
+        }
+        section{
+            padding: 32px 16px;
+            max-width: 900px;
+            margin: auto;
+        }
+        #about{
+            text-align: center;
+        }
+        #about img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+        }
+        #about p{
+            font-size: 18px;
+            color: #333;
+        }
+        #skills ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        #skills li{
+            list-style: none;
+            background-color: #004aad;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #projects{
+            text-align: center;
+        }
+        .project img{
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 16px;
+        }
+        #resume{
+            text-align: center;
+        }
+        .btn{
+            display: inline-block;
+            background-color: #004aad;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 16px;
+        }
+        .btn:hover {
+             background: #003580;
+        }
+        #contact{
+            text-align: center;
+        }
+        .linkedin,.github,.insta{
+            color: #b54214;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .linkedin:hover, .github:hover, .insta:hover{
+            color: #003580;
+        }
+        .linkedin:active, .github:active, .insta:active{
+            color:#b54214;
+        }
+    
